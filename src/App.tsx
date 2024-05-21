@@ -1,14 +1,12 @@
 import './App.css';
-import Todos from "./components/Todos";
+import Todos from './components/Todos';
 
 function App() {
-    return (
-        <>
-         <Todos>
-
-            </Todos>
-        </>
-    );
+  return (
+    <>
+      <Todos></Todos>
+    </>
+  );
 }
 
 export default App;
