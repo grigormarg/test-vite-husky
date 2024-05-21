@@ -20,11 +20,13 @@
     }
   },
   "lint-staged": {
-    "*.{js, jsx,ts,tsx}": [
-      "eslint --quiet --fix"
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write"
     ],
-    "*.{json,js,ts,jsx,tsx,html}": [
-      "prettier --write --ignore-unknown"
+    "*.tsx": [
+      "eslint --fix",
+      "prettier --write"
     ]
   },
   "devDependencies": {
