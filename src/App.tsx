@@ -1,8 +1,14 @@
 import './App.css';
+import Todos from "./components/Todos";
 
 function App() {
+    return (
+        <>
+         <Todos>
 
-  return <><div>frefdwerdewdef</div></>;
+            </Todos>
+        </>
+    );
 }
 
 export default App;

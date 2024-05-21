@@ -9,7 +9,7 @@
     "lint": "eslint '*/**/*.{js,ts,tsx}'",
     "lint:fix": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "pc": "npm run lint --fix && npm run format",
+    "check": "npm run lint --fix && npm run format",
     "preview": "vite preview",
     "prepare": "husky install"
   },
